@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    display: grid;
+    grid-template: 300px 100px 100px / 1fr 1fr 1fr ;
+    grid-template: 100px 1fr 150px / 200px 1fr ;
+    grid-template-areas:    "header header" 
+                            "left   contenido" 
+                            "footer footer";
+    grid-gap: 10px 10px;
+    height: 100vh;
+}
+
+.header{
+    grid-area:header;
+}
+.left{
+    grid-area:left;
+}
+.contenido{
+    grid-area:contenido;
+}
+.footer{
+    grid-area:footer;
+}
+
+.item{
+    background: lightblue;
+    padding: 10px;
+    border: 1px solid red;
+}

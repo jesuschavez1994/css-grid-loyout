@@ -1,0 +1,5 @@
+@media screen and (max-width:768px){
+    .post-list{
+        grid-gap: 3px;
+    }
+}

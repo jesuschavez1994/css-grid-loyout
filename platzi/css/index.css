@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+p{
+    margin: 0;
+}
+
+.hero{
+    color: white;
+    padding: 32px 15px;
+    background: #23475b;
+}
+
+.title{
+    margin: 0px;
+    display: flex;
+    font-size: 36px;
+    font-weight: normal;
+    align-items: center;
+}
+
+.form{
+    padding: 1.5em;
+    text-align: center;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .9);
+}
+
+.form input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #dbdbe2;
+}
+
+.form p{
+    font-size: 20px;
+    color: #3a3b3f;
+    margin-bottom: 1em;
+}
+
+.form button{
+    border: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    background: #98ca3f;
+    display: inline-block;
+    border-bottom: 5px solid #6d932b;
+}
+
+.countdown p{
+    font-size: 26px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.countdown span{
+    font-size: 33px;
+
+}
+
+.countdown span:after{
+    content: ":";
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.countdown span:last-child:after {
+    display: none;
+}
+
+.badge img{
+    max-width: 70px;
+}
+
+
